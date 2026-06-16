@@ -1,0 +1,56 @@
+
+
+ ##mbcorr only
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 163.4071993392888
+        x: [-1.936e+01  7.462e-02  3.732e-01  6.016e-01]
+      nit: 20
+      jac: [ 5.457e-04 -2.046e-04 -2.728e-04  1.819e-04]
+     nfev: 170
+     njev: 34
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+##mbcor tot
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -510.7671965360678
+        x: [-1.931e+01  2.187e-02  2.866e-01  6.028e-01]
+      nit: 24
+      jac: [-9.095e-04  2.274e-04  3.865e-04 -3.411e-04]
+     nfev: 155
+     njev: 31
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+ 
+
+ ##mbcor bias corrected
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -490.81993809782534
+        x: [-1.932e+01  2.690e-02  3.033e-01  6.261e-01]
+      nit: 22
+      jac: [ 4.775e-04  0.000e+00  4.320e-04  5.457e-04]
+     nfev: 170
+     njev: 34
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+
+
+
+ ##mbcorrhostmass
+   message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 120.2815799378925
+        x: [-1.935e+01  6.917e-02  3.563e-01  5.765e-01]
+      nit: 20
+      jac: [ 2.888e-03  2.274e-04 -4.093e-04  7.049e-04]
+     nfev: 135
+     njev: 27
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+

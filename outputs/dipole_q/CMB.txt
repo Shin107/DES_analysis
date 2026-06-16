@@ -1,0 +1,12 @@
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 167.8523172809014
+        x: [-1.934e+01  7.516e-02 -2.568e-01 -2.106e-02  8.000e+00
+             0.000e+00]
+      nit: 24
+      jac: [ 1.364e-04  6.821e-05  1.592e-04  3.411e-04  0.000e+00
+             0.000e+00]
+     nfev: 294
+     njev: 42
+ hess_inv: <6x6 LbfgsInvHessProduct with dtype=float64>

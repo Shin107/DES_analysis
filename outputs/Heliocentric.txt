@@ -1,0 +1,50 @@
+I use different mBcorr definitions as is in the code 
+
+ ##mbcorr only
+   message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 169.8487652669055
+        x: [-1.934e+01  7.468e-02  2.994e-01  4.229e-01]
+      nit: 23
+      jac: [-6.821e-05 -4.775e-04  1.137e-04  1.819e-04]
+     nfev: 145
+     njev: 29
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+##mbcor tot
+ message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -493.8209945694082
+        x: [-1.929e+01  2.414e-02  2.078e-01  4.252e-01]
+      nit: 21
+      jac: [-3.411e-04 -4.093e-04 -2.274e-05 -1.364e-04]
+     nfev: 170
+     njev: 34
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+##mbcor bias corrected
+ message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: -475.8197015615474
+        x: [-1.930e+01  2.831e-02  2.259e-01  4.501e-01]
+      nit: 23
+      jac: [ 1.137e-04 -2.274e-05  2.501e-04 -1.364e-04]
+     nfev: 155
+     njev: 31
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+
+ ##mbcorrhostmass
+   message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 128.11876983464435
+        x: [-1.933e+01  6.941e-02  2.808e-01  3.958e-01]
+      nit: 21
+      jac: [ 3.183e-04 -2.274e-05 -1.137e-04  2.956e-04]
+     nfev: 185
+     njev: 37
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>

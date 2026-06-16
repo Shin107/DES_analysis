@@ -1,0 +1,28 @@
+  message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 161.00229040411955
+        x: [-1.933e+01  7.391e-02 -2.567e-01  2.528e-02 -1.005e+00
+             1.219e-01]
+      nit: 70
+      jac: [ 1.137e-04  2.956e-04  3.411e-04 -2.956e-04  6.821e-05
+             2.728e-04]
+     nfev: 679
+     njev: 97
+ hess_inv: <6x6 LbfgsInvHessProduct with dtype=float64>
+
+
+
+ ##only cosmogrpahic
+ message: CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+  success: True
+   status: 0
+      fun: 168.21924083814542
+        x: [-1.933e+01  7.449e-02 -2.180e-01 -1.633e-01]
+      nit: 26
+      jac: [-3.183e-04 -6.821e-05  1.819e-04  3.183e-04]
+     nfev: 195
+     njev: 39
+ hess_inv: <4x4 LbfgsInvHessProduct with dtype=float64>
+
+ 
